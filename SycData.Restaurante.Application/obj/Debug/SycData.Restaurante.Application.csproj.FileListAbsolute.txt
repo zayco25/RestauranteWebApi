@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Application\bin\Debug\SycData.Restaurante.Application.dll.config
+c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Application\bin\Debug\SycData.Restaurante.Application.dll
+c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Application\bin\Debug\SycData.Restaurante.Application.pdb
+c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Application\obj\Debug\SycData.Restaurante.Application.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Application\obj\Debug\SycData.Restaurante.Application.dll
+c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Application\obj\Debug\SycData.Restaurante.Application.pdb
