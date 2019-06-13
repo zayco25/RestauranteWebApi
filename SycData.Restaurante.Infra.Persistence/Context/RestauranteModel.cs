@@ -1,3 +1,5 @@
+using SycData.Restaurante.Domain.Entities;
+
 namespace SycData.Restaurante.Infra.Persistence.Context
 {
     using System;
@@ -16,6 +18,15 @@ namespace SycData.Restaurante.Infra.Persistence.Context
             this.Configuration.LazyLoadingEnabled = false;
         }
 
+
+        public virtual DbSet<Mesa> Mesa { get; set; }
+
+        public virtual DbSet<Nivel> Nivel { get; set; }
+        public virtual DbSet<RegistroPedido> RegistroPedido { get; set; }
+
+        public virtual DbSet<Comanda> Comanda { get; set; }
+
+        public virtual DbSet<DetalleComanda> DetalleComanda { get; set; }
         public virtual DbSet<Almacen> Almacen { get; set; }
         public virtual DbSet<Banco> Banco { get; set; }
         public virtual DbSet<Categoria> Categoria { get; set; }
@@ -64,6 +75,7 @@ namespace SycData.Restaurante.Infra.Persistence.Context
             modelBuilder.Configurations.Add(new ComandaConfiguration());
             modelBuilder.Configurations.Add(new ComandaDetalleConfiguration());
             modelBuilder.Configurations.Add(new NivelConfiguration());
+            modelBuilder.Configurations.Add(new RegistroPedidoConfiguration());
 
 
 

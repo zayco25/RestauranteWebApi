@@ -1,0 +1,1 @@
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Web.Api.Tests\obj\Debug\SycData.Restaurante.Web.Api.Tests.csprojResolveAssemblyReference.cache

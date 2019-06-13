@@ -24,6 +24,12 @@ namespace SycData.Restaurante.Web.Api
             container.RegisterType<IUsuarioService, UsuarioService>();
 
 
+            container.RegisterType<IProducto, ProductoRepository>();
+            container.RegisterType<IProductoService, ProductoService>();
+
+
+
+
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
         }
     }

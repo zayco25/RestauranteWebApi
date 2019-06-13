@@ -17,6 +17,7 @@ namespace SycData.Restaurante.Infra.Persistence.EntityConfiguration
             this.ToTable("Comanda");
             this.HasKey<int>(s => s.IdComanda);
             this.Property(x => x.IdComanda).HasDatabaseGeneratedOption(databaseGeneratedOption: System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity);
+            this.Property(x => x.FechaRegistro).HasDatabaseGeneratedOption(databaseGeneratedOption: System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Computed);
             this.HasRequired<Operacion>(x => x.Operacion).WithMany(x => x.Comandas).HasForeignKey(x => x.IdOperacion);
 
         }

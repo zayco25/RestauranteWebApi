@@ -1,0 +1,12 @@
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\bin\Release\SycData.Restaurante.Application.dll.config
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\bin\Release\SycData.Restaurante.Application.dll
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\bin\Release\SycData.Restaurante.Application.pdb
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\bin\Release\SycData.Restaurante.Domain.dll
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\bin\Release\SycData.Restaurante.Infra.Persistence.dll
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\bin\Release\EntityFramework.dll
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\bin\Release\SycData.Restaurante.Domain.pdb
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\bin\Release\SycData.Restaurante.Infra.Persistence.pdb
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\bin\Release\EntityFramework.xml
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\obj\Release\SycData.Restaurante.Application.csprojResolveAssemblyReference.cache
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\obj\Release\SycData.Restaurante.Application.dll
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\obj\Release\SycData.Restaurante.Application.pdb

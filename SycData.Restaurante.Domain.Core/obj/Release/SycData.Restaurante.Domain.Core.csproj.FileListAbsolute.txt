@@ -1,0 +1,7 @@
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Domain.Core\bin\Release\SycData.Restaurante.Domain.Core.dll
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Domain.Core\bin\Release\SycData.Restaurante.Domain.Core.pdb
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Domain.Core\bin\Release\SycData.Restaurante.Domain.dll
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Domain.Core\bin\Release\SycData.Restaurante.Domain.pdb
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Domain.Core\obj\Release\SycData.Restaurante.Domain.Core.csprojResolveAssemblyReference.cache
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Domain.Core\obj\Release\SycData.Restaurante.Domain.Core.dll
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Domain.Core\obj\Release\SycData.Restaurante.Domain.Core.pdb

@@ -93,6 +93,8 @@
     <Compile Include="Entities\Turno.cs" />
     <Compile Include="Entities\UnidadMedida.cs" />
     <Compile Include="Entities\Usuario.cs" />
+    <Compile Include="Interfaces\IMesa.cs" />
+    <Compile Include="Interfaces\IProducto.cs" />
     <Compile Include="Interfaces\IUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
