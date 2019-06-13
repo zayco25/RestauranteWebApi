@@ -44,6 +44,7 @@ namespace SycData.Restaurante.Web.Api.Controllers
         ///<summary>
         ///Clase principal de la aplicación.
         ///</summary>
+        //////asdjkashdhasd
         ///<remarks>
         ///Lee archivos de configuración y crea los hilos que ejecutan el resto del programa.
         ///</remarks>
