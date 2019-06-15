@@ -16,3 +16,9 @@ C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\bi
 C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\obj\Debug\SycData.Restaurante.Application.csprojResolveAssemblyReference.cache
 C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\obj\Debug\SycData.Restaurante.Application.dll
 C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Application\obj\Debug\SycData.Restaurante.Application.pdb
+c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Application\bin\Debug\SycData.Restaurante.Domain.dll
+c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Application\bin\Debug\SycData.Restaurante.Infra.Persistence.dll
+c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Application\bin\Debug\EntityFramework.dll
+c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Application\bin\Debug\SycData.Restaurante.Domain.pdb
+c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Application\bin\Debug\SycData.Restaurante.Infra.Persistence.pdb
+c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Application\bin\Debug\EntityFramework.xml

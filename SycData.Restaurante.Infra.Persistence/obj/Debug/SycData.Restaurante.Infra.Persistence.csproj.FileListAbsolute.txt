@@ -33,3 +33,6 @@ C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Infra.Persiste
 C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.Migrations.asd22dsd.resources
 C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.Migrations.asd22dsd2.resources
 C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.Migrations.asd22dsd233.resources
+c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.Migrations.asd22dsd.resources
+c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.Migrations.asd22dsd2.resources
+c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.Migrations.asd22dsd233.resources

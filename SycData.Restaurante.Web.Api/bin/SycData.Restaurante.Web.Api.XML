@@ -495,9 +495,6 @@
             </remarks>
         </member>
         <member name="M:SycData.Restaurante.Web.Api.Controllers.UsuarioController.GetUser(System.String)">
-            <summary>
-            Clase principal de la aplicación.
-            </summary>
             <remarks>
             Lee archivos de configuración y crea los hilos que ejecutan el resto del programa.
             </remarks>

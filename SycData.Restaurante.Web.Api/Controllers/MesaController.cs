@@ -7,6 +7,8 @@ using System.Runtime.Remoting.Contexts;
 using System.Web.Http;
 using SycData.Restaurante.Application.Services;
 using System.Threading.Tasks;
+using System.Web.Http.Description;
+using SycData.Restaurante.Domain.Entities;
 
 namespace SycData.Restaurante.Web.Api.Controllers
 {
@@ -38,6 +40,26 @@ namespace SycData.Restaurante.Web.Api.Controllers
 
             return Ok(Result);  // Returns an OkNegotiatedContentResult
         }
+
+
+
+
+
+      
+        [HttpGet]
+        [ResponseType(typeof(Mesa))]
+        [Route("api/Mesa/GetMesa1")]
+        public async Task<IHttpActionResult> GetMesa1(int IdNivel = 0)
+        {
+            var Result = await _MesaService.GetMesa(IdNivel);
+
+
+            return Ok(Result);  // Returns an OkNegotiatedContentResult
+        }
+
+
+
+
 
 
 
