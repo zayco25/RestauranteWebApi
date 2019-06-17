@@ -282,3 +282,5 @@ C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Web.Api\bin\es
 C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Web.Api\obj\Debug\SycData.Restaurante.Web.Api.csprojResolveAssemblyReference.cache
 C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Web.Api\obj\Debug\SycData.Restaurante.Web.Api.dll
 C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Web.Api\obj\Debug\SycData.Restaurante.Web.Api.pdb
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Web.Api\bin\SycData.Restaurante.Domain.Core.dll
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Web.Api\bin\SycData.Restaurante.Domain.Core.pdb

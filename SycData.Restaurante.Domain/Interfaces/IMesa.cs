@@ -11,5 +11,10 @@ public    interface IMesa
 {
 
     Task<IEnumerable<Mesa>> GetMesa(int? IdNivel = 0);
-}
+
+
+
+    
+
+    }
 }

@@ -56,3 +56,5 @@ C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Infra.CrossCou
 C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Infra.CrossCoutting\obj\Debug\SycData.Restaurante.Infra.CrossCoutting.csprojResolveAssemblyReference.cache
 C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Infra.CrossCoutting\obj\Debug\SycData.Restaurante.Infra.CrossCoutting.dll
 C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Infra.CrossCoutting\obj\Debug\SycData.Restaurante.Infra.CrossCoutting.pdb
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Infra.CrossCoutting\bin\Debug\SycData.Restaurante.Domain.Core.dll
+C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Infra.CrossCoutting\bin\Debug\SycData.Restaurante.Domain.Core.pdb

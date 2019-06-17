@@ -30,5 +30,7 @@ namespace SycData.Restaurante.Infra.Persistence.Repository
 
             return Result;
         }
+
+      
     }
 }
