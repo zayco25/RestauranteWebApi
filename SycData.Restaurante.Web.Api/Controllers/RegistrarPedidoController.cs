@@ -34,9 +34,9 @@ namespace SycData.Restaurante.Web.Api.Controllers
         [HttpPost]
         //[ResponseType(typeof(ViewModel))]
         [Route("api/RegistrarPedido/Registrar")]
-        public IHttpActionResult RegistrarPedido(RegistroPedido  Pedido , Comanda  Cabecera ,DetalleComanda Detalle)
+        public IHttpActionResult RegistrarPedido ( [FromBody] RegistroModelView parameters)
         {
-            var Result = _RegistroPedidoService.RegistroPedido(Pedido, Cabecera, Detalle);
+            var Result = _RegistroPedidoService.RegistroPedido(parameters.Pedido, parameters.Cabecera, parameters.Detalle);
 
 
             return Ok(Result);  // Returns an OkNegotiatedContentResult
@@ -46,4 +46,19 @@ namespace SycData.Restaurante.Web.Api.Controllers
 
 
     }
+
+
+    public class RegistroModelView
+    {
+
+
+        public RegistroPedido Pedido { get; set; }
+        public Comanda      Cabecera { get; set; }
+
+        public List<DetalleComanda> Detalle { get; set; }
+
+
+
+    }
+
 }

@@ -18,3 +18,13 @@ C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Domain\bin\Deb
 C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Domain\obj\Debug\SycData.Restaurante.Domain.dll
 C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Domain\obj\Debug\SycData.Restaurante.Domain.pdb
 C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Domain\obj\Debug\SycData.Restaurante.Domain.csprojResolveAssemblyReference.cache
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain\bin\Debug\SycData.Restaurante.Domain.dll.config
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain\bin\Debug\SycData.Restaurante.Domain.dll
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain\bin\Debug\SycData.Restaurante.Domain.pdb
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain\bin\Debug\EntityFramework.dll
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain\bin\Debug\EntityFramework.xml
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain\obj\Debug\SycData.Restaurante.Domain.csprojResolveAssemblyReference.cache
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain\obj\Debug\SycData.Restaurante.Domain.dll
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain\obj\Debug\SycData.Restaurante.Domain.pdb

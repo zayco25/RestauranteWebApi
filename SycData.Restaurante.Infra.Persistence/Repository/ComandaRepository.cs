@@ -49,7 +49,7 @@ namespace SycData.Restaurante.Infra.Persistence.Repository
          
     }
 
-        public int RegistrarComandaMesa(RegistroPedido Obj, Comanda ObjComanda, DetalleComanda ObjDetalle)
+        public int RegistrarComandaMesa(RegistroPedido Obj, Comanda ObjComanda, List<DetalleComanda> ObjDetalle)
         {
             throw new NotImplementedException();
         }

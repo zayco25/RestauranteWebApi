@@ -30,7 +30,7 @@ namespace SycData.Restaurante.Application.Services
 
 
 
-        public int RegistroPedido(RegistroPedido Obj, Comanda ObjComanda, DetalleComanda ObjComandaDetalle)
+        public int RegistroPedido(RegistroPedido Obj, Comanda ObjComanda, List<DetalleComanda> ObjComandaDetalle)
         {
 
            int IdComanda = 0;
@@ -73,9 +73,10 @@ namespace SycData.Restaurante.Application.Services
 
                     Contex.Commit();
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
 
+                    Console.Write(ex.Message.ToString());
 
 
 

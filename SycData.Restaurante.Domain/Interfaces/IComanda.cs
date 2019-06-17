@@ -14,7 +14,7 @@ namespace SycData.Restaurante.Domain.Interfaces
 
         int RegistrarComanda(Comanda Obj);
 
-        int RegistrarComandaMesa(RegistroPedido Obj, Comanda ObjComanda, DetalleComanda ObjDetalle);
+        int RegistrarComandaMesa(RegistroPedido Obj, Comanda ObjComanda, List<DetalleComanda> ObjDetalle);
 
 
     }

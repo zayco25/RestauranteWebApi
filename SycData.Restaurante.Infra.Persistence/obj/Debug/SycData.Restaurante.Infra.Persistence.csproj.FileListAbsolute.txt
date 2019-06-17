@@ -36,3 +36,22 @@ C:\Users\kevin\Source\Repos\RestauranteWebApi\SycData.Restaurante.Infra.Persiste
 c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.Migrations.asd22dsd.resources
 c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.Migrations.asd22dsd2.resources
 c:\users\user\documents\visual studio 2015\Projects\KR.SycData.Restaurante\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.Migrations.asd22dsd233.resources
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\bin\Debug\SycData.Restaurante.Infra.Persistence.dll.config
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\bin\Debug\SycData.Restaurante.Infra.Persistence.dll
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\bin\Debug\SycData.Restaurante.Infra.Persistence.pdb
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\bin\Debug\EntityFramework.dll
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\bin\Debug\SycData.Restaurante.Domain.Core.dll
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\bin\Debug\SycData.Restaurante.Domain.dll
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\bin\Debug\SycData.Restaurante.Domain.Core.pdb
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\bin\Debug\SycData.Restaurante.Domain.pdb
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\bin\Debug\EntityFramework.xml
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.csprojResolveAssemblyReference.cache
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.Migrations.Rest.resources
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.Migrations.asd22dsd.resources
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.Migrations.asd22dsd2.resources
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.Migrations.asd22dsd233.resources
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.csproj.GenerateResource.Cache
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.dll
+C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Infra.Persistence\obj\Debug\SycData.Restaurante.Infra.Persistence.pdb

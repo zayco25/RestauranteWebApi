@@ -12,6 +12,6 @@ public    interface IRegostroPedidoService
     {
 
 
-        int RegistroPedido(RegistroPedido Obj ,Comanda ObjComanda , DetalleComanda ObjComandaDetalle);
+        int RegistroPedido(RegistroPedido Obj ,Comanda ObjComanda , List<DetalleComanda> ObjComandaDetalle);
     }
 }

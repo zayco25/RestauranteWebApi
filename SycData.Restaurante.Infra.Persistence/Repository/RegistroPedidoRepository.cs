@@ -37,9 +37,10 @@ namespace SycData.Restaurante.Infra.Persistence.Repository
                 _Context.RegistroPedido.Add(Obj);
                 Valor = Obj.IdRegistroPedido;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                
+
+                Console.Write(ex.Message.ToString());
             }
 
             return Valor;
