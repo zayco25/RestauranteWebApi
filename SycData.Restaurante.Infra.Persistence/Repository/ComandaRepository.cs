@@ -32,7 +32,7 @@ namespace SycData.Restaurante.Infra.Persistence.Repository
         {
 
 
-          int Valor = 0;
+            int Valor = 0;
 
             try
             {
@@ -46,12 +46,65 @@ namespace SycData.Restaurante.Infra.Persistence.Repository
             }
 
             return Valor;
-         
-    }
+
+        }
 
         public int RegistrarComandaMesa(RegistroPedido Obj, Comanda ObjComanda, List<DetalleComanda> ObjDetalle)
         {
-            throw new NotImplementedException();
+
+
+
+
+            ObjComanda.IdMesa = Obj.IdMesa;
+
+
+
+            int Valor = 0;
+
+            try
+
+
+
+            {
+
+
+
+                int Ncomanda = 0;
+
+                var Cuenta = _Context.Comanda.AsNoTracking().Where(x => x.IdOperacion == Obj.IdOperacion).Max(x=> (int?) x.NComanda);
+
+
+                if (Cuenta == null)
+                {
+
+                    Ncomanda = 1;
+                }
+                else
+                {
+
+                    Ncomanda = Convert.ToInt32(Cuenta) + 1;
+                }
+
+
+
+                    ObjComanda.NComanda = Ncomanda;
+                    ObjComanda.IdMesa = Obj.IdRegistroPedido;
+
+                    _Context.Comanda.Add(ObjComanda);
+                    Valor = ObjComanda.IdComanda;
+
+            }
+            catch (Exception)
+            {
+
+            }
+
+            return Valor;
+
+
+
+
+
         }
     }
 }

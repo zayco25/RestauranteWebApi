@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SycData.Restaurante.Domain.Entities;
 using SycData.Restaurante.Infra.Persistence.Repository;
+using SycData.Restaurante.Domain.ViewModels;
 
 namespace SycData.Restaurante.Application.Services
 {
@@ -27,8 +28,18 @@ namespace SycData.Restaurante.Application.Services
 
         }
 
+        public async Task<IEnumerable<DetalleComandaViewModel>> GetPedidosDetalle(int IdRegistro)
+        {
+
+            return await _UnitOfWork.RegistroPedido.GetPedidosDetalle(IdRegistro);
+        }
+
+        public async Task<IEnumerable<RegistroViewModel>> GetRegistroPedidos(int IdOperacion, int IdUsuario)
+        {
 
 
+            return await _UnitOfWork.RegistroPedido.GetRegistroPedidos(IdOperacion, IdUsuario);
+        }
 
         public int RegistroPedido(RegistroPedido Obj, Comanda ObjComanda, List<DetalleComanda> ObjComandaDetalle)
         {
@@ -57,21 +68,22 @@ namespace SycData.Restaurante.Application.Services
                     }
                     else
                     {
-
                         _UnitOfWork.RegistroPedido.ActualizarPedido(Obj);
-
-                        
+                                               
 
                     }
                     
-
-
 
                     _UnitOfWork.CommintSaveChanges();
                     _UnitOfWork.Comanda.RegistrarComandaMesa(Obj, ObjComanda, ObjComandaDetalle);
                     _UnitOfWork.CommintSaveChanges();
 
+                    _UnitOfWork.DetalleComanda.RegistrarDetalleComanda(ObjComanda.IdComanda, ObjComandaDetalle);
+                    _UnitOfWork.CommintSaveChanges();
+
                     Contex.Commit();
+
+                    IdComanda = ObjComanda.IdComanda;
                 }
                 catch (Exception ex)
                 {
@@ -103,6 +115,6 @@ namespace SycData.Restaurante.Application.Services
         }
 
 
-
+   
     }
 }

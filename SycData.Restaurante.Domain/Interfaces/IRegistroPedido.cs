@@ -1,4 +1,5 @@
 ﻿using SycData.Restaurante.Domain.Entities;
+using SycData.Restaurante.Domain.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,9 @@ namespace SycData.Restaurante.Domain.Interfaces
 
 
         void ActualizarPedido(RegistroPedido Obj);
-        
+
+        Task<IEnumerable<RegistroViewModel>> GetRegistroPedidos(int IdOperacion, int IdUsuario);
+
+        Task<IEnumerable<DetalleComandaViewModel>> GetPedidosDetalle(int IdRegistro);
     }
 }

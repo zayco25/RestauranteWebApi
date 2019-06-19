@@ -11,6 +11,6 @@ namespace SycData.Restaurante.Domain.Interfaces
     {
 
 
-        void RegistrarDetalleComanda(DetalleComanda obj);
+        void RegistrarDetalleComanda(int IdComanda,List<DetalleComanda> obj);
     }
 }

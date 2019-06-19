@@ -27,6 +27,12 @@ namespace SycData.Restaurante.Web.Api
             container.RegisterType<IProducto, ProductoRepository>();
             container.RegisterType<IProductoService, ProductoService>();
 
+            container.RegisterType<IRegostroPedidoService, RegistroPedidoService>();
+            container.RegisterType<IComandaService, ComandaService>();
+            container.RegisterType<IComanda, ComandaRepository>();
+            container.RegisterType<IRegistroPedido, RegistroPedidoRepository>();
+            container.RegisterType<IComandaDetalle, DetalleComandaRepository>();
+
 
 
 

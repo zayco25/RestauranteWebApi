@@ -30,9 +30,9 @@ namespace SycData.Restaurante.Application.Services
             return _UnitOfWork.Comanda.RegistrarComanda(Obj);
         }
 
-        public void RegistrarDetalleComanda(DetalleComanda Obj)
+        public void RegistrarDetalleComanda(int IdComanda ,List<DetalleComanda> Obj)
         {
-            _UnitOfWork.DetalleComanda.RegistrarDetalleComanda(Obj);
+            _UnitOfWork.DetalleComanda.RegistrarDetalleComanda(IdComanda,Obj);
         }
     }
 }
