@@ -315,6 +315,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MesaController.cs" />
+    <Compile Include="Controllers\NivelController.cs" />
     <Compile Include="Controllers\ProductoController.cs" />
     <Compile Include="Controllers\RegistrarPedidoController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
@@ -367,7 +368,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

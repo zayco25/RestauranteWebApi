@@ -19,6 +19,7 @@ namespace SycData.Restaurante.Infra.Persistence.Repository
 
         public IComanda Comanda { get; private set; }
         public IComandaDetalle DetalleComanda { get; private set; }
+        public INivel Nivel { get; private set; }
 
 
         public UnitOfWork(RestauranteModel Context)
@@ -26,11 +27,11 @@ namespace SycData.Restaurante.Infra.Persistence.Repository
 
             _context = Context;
 
-
             RegistroPedido = new RegistroPedidoRepository(Context);
             Comanda = new ComandaRepository(Context);
-
             DetalleComanda = new DetalleComandaRepository(Context);
+
+            Nivel = new NivelRepository(Context);
 
         }
 

@@ -21,5 +21,22 @@ namespace SycData.Restaurante.Domain.ViewModels
 
         public decimal Total { get; set; }
 
+
+        public string Usuario { get; set; }
+
+        public int Npersonas { get; set; }
+
+
+        public string Cliente { get; set; }
+
+        public int Cuenta { get; set; }
+
+
+        
+
+        public decimal? Descuento { get; set; }
+
+        public decimal? Pdescuento { get; set; }
+
     }
 }

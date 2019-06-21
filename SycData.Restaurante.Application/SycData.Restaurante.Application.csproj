@@ -53,12 +53,14 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Interfaces\IComandaService.cs" />
     <Compile Include="Interfaces\IMesaService.cs" />
+    <Compile Include="Interfaces\INivelService.cs" />
     <Compile Include="Interfaces\IProductoService.cs" />
     <Compile Include="Interfaces\IRegostroPedidoService.cs" />
     <Compile Include="Interfaces\IUsuarioService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ComandaService.cs" />
     <Compile Include="Services\MesaService.cs" />
+    <Compile Include="Services\NivelService.cs" />
     <Compile Include="Services\ProductoService.cs" />
     <Compile Include="Services\RegistroPedidoService.cs" />
     <Compile Include="Services\UsuarioService.cs" />

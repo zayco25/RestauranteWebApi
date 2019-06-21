@@ -53,6 +53,8 @@ namespace SycData.Restaurante.Domain.Entities
 
 
 
+        
+
 
     }
 }

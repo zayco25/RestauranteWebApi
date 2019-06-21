@@ -33,11 +33,9 @@ namespace SycData.Restaurante.Web.Api.Controllers
         [HttpGet]
         //[ResponseType(typeof(ViewModel))]
         [Route("api/Mesa/GetMesa")]
-        public async Task<IHttpActionResult> GetMesa(int IdNivel = 0)
+        public async Task<IHttpActionResult> GetMesa(int IdNivel = 0 ,int IdOperacion=0)
         {
-            var Result = await _MesaService.GetMesa(IdNivel);
-
-
+            var Result = await _MesaService.GetMesa(IdNivel ,IdOperacion);
             return Ok(Result);  // Returns an OkNegotiatedContentResult
         }
 
@@ -45,7 +43,23 @@ namespace SycData.Restaurante.Web.Api.Controllers
 
 
 
-      
+
+
+        [Authorize]
+        [HttpGet]
+        //[ResponseType(typeof(ViewModel))]
+        [Route("api/Mesa/ValidarMesa")]
+        public IHttpActionResult ValidarMesa(int IdMesa)
+        {
+            var Result =   _MesaService.ValidarMesa(IdMesa);
+            return Ok(Result);  // Returns an OkNegotiatedContentResult
+        }
+
+
+
+
+
+
         [HttpGet]
         [ResponseType(typeof(Mesa))]
         [Route("api/Mesa/GetMesa1")]

@@ -44,6 +44,26 @@ namespace SycData.Restaurante.Web.Api.Controllers
             return Ok(Result);  // Returns an OkNegotiatedContentResult
         }
 
+
+
+
+
+        [Authorize]
+        [HttpPost]
+        //[ResponseType(typeof(ViewModel))]
+        [Route("api/RegistrarPedido/ImprimirPrevio")]
+        public IHttpActionResult ImprimirPrevio([FromBody] Parameters param)
+        {
+           _RegistroPedidoService.ImprimirPrevio(param.IdRegistroPedido);
+
+            return Ok();  // Returns an OkNegotiatedContentResult
+        }
+
+
+
+
+
+
         [Authorize]
         [HttpGet]
         [ResponseType(typeof(RegistroViewModel))]
@@ -86,6 +106,13 @@ namespace SycData.Restaurante.Web.Api.Controllers
         public List<DetalleComanda> Detalle { get; set; }
 
 
+
+    }
+
+    public class Parameters
+    {
+
+        public int IdRegistroPedido  { get; set; }
 
     }
 

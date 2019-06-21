@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SycData.Restaurante.Domain.Entities;
 using SycData.Restaurante.Infra.Persistence.Repository;
+using SycData.Restaurante.Domain.ViewModels;
 
 namespace SycData.Restaurante.Application.Services
 {
@@ -20,14 +21,21 @@ namespace SycData.Restaurante.Application.Services
             _mesaRepository = mesaRepository;
 
         }
-        public async Task<IEnumerable<Mesa>> GetMesa(int? IdNivel = 0)
+        public async Task<IEnumerable<MesaViewModel>> GetMesa(int? IdNivel = 0 ,int? IdOperacion = 0)
         {
 
 
-            var Result = await _mesaRepository.GetMesa((IdNivel));
+            var Result = await _mesaRepository.GetMesa((IdNivel),IdOperacion);
 
 
             return Result;
+        }
+
+        public bool ValidarMesa(int IdMesa)
+        {
+
+
+            return _mesaRepository.ValidarMesa(IdMesa);
         }
     }
 }

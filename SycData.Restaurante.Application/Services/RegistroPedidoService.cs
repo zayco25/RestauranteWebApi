@@ -41,6 +41,12 @@ namespace SycData.Restaurante.Application.Services
             return await _UnitOfWork.RegistroPedido.GetRegistroPedidos(IdOperacion, IdUsuario);
         }
 
+        public void ImprimirPrevio(int IdRegistroPedido)
+        {
+            _UnitOfWork.RegistroPedido.ImprimirPrevio(IdRegistroPedido);
+            _UnitOfWork.CommintSaveChanges();
+        }
+
         public int RegistroPedido(RegistroPedido Obj, Comanda ObjComanda, List<DetalleComanda> ObjComandaDetalle)
         {
 

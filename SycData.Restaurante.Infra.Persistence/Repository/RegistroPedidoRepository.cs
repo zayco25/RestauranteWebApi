@@ -97,7 +97,7 @@ namespace SycData.Restaurante.Infra.Persistence.Repository
             var Lista =  await (from Re in _Context.RegistroPedido
                          join M in _Context.Mesa on Re.IdMesa equals M.IdMesa
 
-
+                         join U in _Context.Usuario on Re.IdUsuario  equals U.IdUsuario
                          where Re.IdOperacion == IdOperacion && Re.IdUsuario == IdUsuario
 
                          select new RegistroViewModel
@@ -106,7 +106,13 @@ namespace SycData.Restaurante.Infra.Persistence.Repository
                             IdRegistro =Re.IdRegistroPedido ,
                             IdMesa =Re.IdMesa ,
                             Mesa = M.Descripcion ,
-                            Previo = Re.Previo
+                            Previo = Re.Previo ,
+                            Cuenta = Re.Cuenta ,
+                            Total = Re.Total ,
+                            Descuento = Re.Descuento ,
+                            Pdescuento=Re.PDescuento ,
+                            Usuario = U.NombreUsuario,
+                            Npersonas =Re.NPersonas
 
                          }
                          ).ToListAsync();
@@ -114,6 +120,18 @@ namespace SycData.Restaurante.Infra.Persistence.Repository
 
             return Lista;
 
+        }
+
+        public void ImprimirPrevio(int IdRegistroPedido)
+        {
+            RegistroPedido ObjP = new RegistroPedido();
+ 
+            ObjP.IdRegistroPedido = IdRegistroPedido;
+            ObjP.Previo = "P";
+             
+            _Context.Configuration.ValidateOnSaveEnabled = false;
+            _Context.RegistroPedido.Attach(ObjP);
+            _Context.Entry(ObjP).Property(x => x.Previo).IsModified = true;
         }
 
         public int RegistrarPedido(RegistroPedido Obj)
@@ -145,6 +163,25 @@ namespace SycData.Restaurante.Infra.Persistence.Repository
 
                 _Context.RegistroPedido.Add(Obj);
                 Valor = Obj.IdRegistroPedido;
+
+
+
+
+                Mesa ObjP = new Mesa();
+
+                ObjP.IdMesa = Obj.IdMesa;
+                ObjP.Ocupado = 1;
+
+                _Context.Configuration.ValidateOnSaveEnabled = false;
+                _Context.Mesa.Attach(ObjP);
+                _Context.Entry(ObjP).Property(x => x.Ocupado).IsModified = true;
+
+
+
+
+
+
+
             }
             catch (Exception ex)
             {

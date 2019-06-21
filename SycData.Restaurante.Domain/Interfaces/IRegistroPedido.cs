@@ -21,5 +21,9 @@ namespace SycData.Restaurante.Domain.Interfaces
         Task<IEnumerable<RegistroViewModel>> GetRegistroPedidos(int IdOperacion, int IdUsuario);
 
         Task<IEnumerable<DetalleComandaViewModel>> GetPedidosDetalle(int IdRegistro);
+
+
+        void ImprimirPrevio(int IdRegistroPedido);
+
     }
 }
