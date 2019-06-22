@@ -22,6 +22,9 @@ namespace SycData.Restaurante.Domain.ViewModels
         public string Previo { get; set; }
 
 
+        public int IdRegistro { get; set; }
+
+
 
     }
 }

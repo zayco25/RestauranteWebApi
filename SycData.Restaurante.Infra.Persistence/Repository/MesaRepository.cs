@@ -35,7 +35,10 @@ namespace SycData.Restaurante.Infra.Persistence.Repository
                     Descripcion = x.Descripcion,
                     Ocupado = x.Ocupado,
                     IdUsuario = ( ( (from R in _Context.RegistroPedido where R.IdOperacion == IdOperacion && R.IdMesa==x.IdMesa && R.Estado == 1 select new { IdUsuario = (int?) R.IdUsuario }).Take(1).FirstOrDefault().IdUsuario) ?? 0) ,
-                    Previo = (((from R in _Context.RegistroPedido where R.IdOperacion == IdOperacion && R.IdMesa == x.IdMesa && R.Estado == 1 select new { Previo =  R.Previo }).Take(1).FirstOrDefault().Previo) ?? "")
+                    Previo = (((from R in _Context.RegistroPedido where R.IdOperacion == IdOperacion && R.IdMesa == x.IdMesa && R.Estado == 1 select new { Previo =  R.Previo }).Take(1).FirstOrDefault().Previo) ?? ""),
+                    IdRegistro = (((from R in _Context.RegistroPedido where R.IdOperacion == IdOperacion && R.IdMesa == x.IdMesa && R.Estado == 1 select new { IdRegistro = (int?)R.IdRegistroPedido }).Take(1).FirstOrDefault().IdRegistro) ?? 0),
+
+
                 } ) 
                 .ToListAsync();
 
