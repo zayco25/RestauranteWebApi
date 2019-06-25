@@ -30,5 +30,11 @@ namespace SycData.Restaurante.Application.Services
 
             return await _UnitOfWork.Operacion.GetOpenBox();
         }
+
+        public  async Task<TotalesViewModel> GetTotales(int IdOperacion)
+        {
+
+            return await _UnitOfWork.Operacion.GetTotales(IdOperacion);
+        }
     }
 }

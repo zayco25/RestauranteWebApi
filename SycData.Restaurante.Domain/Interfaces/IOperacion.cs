@@ -15,5 +15,7 @@ namespace SycData.Restaurante.Domain.Interfaces
 
         Task<OperacionViewModel> GetOpenBox();
 
+        Task<TotalesViewModel> GetTotales(int IdOperacion);
+
     }
 }
