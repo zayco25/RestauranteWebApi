@@ -80,6 +80,7 @@
     <Compile Include="Repository\DetalleComandaRepository.cs" />
     <Compile Include="Repository\MesaRepository.cs" />
     <Compile Include="Repository\NivelRepository.cs" />
+    <Compile Include="Repository\OperacionRepository.cs" />
     <Compile Include="Repository\ProductoRepository.cs" />
     <Compile Include="Repository\RegistroPedidoRepository.cs" />
     <Compile Include="Repository\UnitOfWork.cs" />

@@ -7,13 +7,15 @@ using System.Threading.Tasks;
 
 namespace SycData.Restaurante.Domain.Interfaces
 {
-  public  interface IOperacion
+    public interface IOperacion
     {
 
 
 
 
         Task<OperacionViewModel> GetOpenBox();
+
+        Task<TotalesViewModel> GetTotales(int IdOperacion);
 
     }
 }

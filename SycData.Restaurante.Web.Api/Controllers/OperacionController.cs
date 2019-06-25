@@ -37,5 +37,18 @@ namespace SycData.Restaurante.Web.Api.Controllers
             return Ok(Result);  // Returns an OkNegotiatedContentResult
         }
 
+
+
+        [Authorize]
+        [HttpGet]
+        //[ResponseType(typeof(ViewModel))]
+        [Route("api/Operacion/Totales")]
+        public async Task<IHttpActionResult> GetTotales(int IdOperacion)
+        {
+            var Result = await _OperacionService.GetTotales(IdOperacion);
+
+            return Ok(Result);  // Returns an OkNegotiatedContentResult
+        }
+
     }
 }
