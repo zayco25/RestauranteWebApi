@@ -10,7 +10,5 @@ namespace SycData.Restaurante.Application.Interfaces
   public  interface IOperacionService
     {
         Task<OperacionViewModel> GetOpenBox();
-
-        Task<TotalesViewModel> GetTotales(int IdOperacion);
     }
 }

@@ -22,13 +22,6 @@ namespace SycData.Restaurante.Infra.Persistence.Repository
         public INivel Nivel { get; private set; }
 
 
-        public IOperacion Operacion { get; private set; }
-
-
-
-
-
-
         public UnitOfWork(RestauranteModel Context)
         {
 
@@ -39,8 +32,6 @@ namespace SycData.Restaurante.Infra.Persistence.Repository
             DetalleComanda = new DetalleComandaRepository(Context);
 
             Nivel = new NivelRepository(Context);
-
-            Operacion = new OperacionRepository(Context);
 
         }
 
