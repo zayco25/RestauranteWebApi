@@ -19,3 +19,10 @@ C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain.Core\bin\Debug\
 C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain.Core\obj\Debug\SycData.Restaurante.Domain.Core.csprojResolveAssemblyReference.cache
 C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain.Core\obj\Debug\SycData.Restaurante.Domain.Core.dll
 C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain.Core\obj\Debug\SycData.Restaurante.Domain.Core.pdb
+D:\Desarrollo\WebApi\SycData.Restaurante.Domain.Core\bin\Debug\SycData.Restaurante.Domain.Core.dll
+D:\Desarrollo\WebApi\SycData.Restaurante.Domain.Core\bin\Debug\SycData.Restaurante.Domain.Core.pdb
+D:\Desarrollo\WebApi\SycData.Restaurante.Domain.Core\bin\Debug\SycData.Restaurante.Domain.dll
+D:\Desarrollo\WebApi\SycData.Restaurante.Domain.Core\bin\Debug\SycData.Restaurante.Domain.pdb
+D:\Desarrollo\WebApi\SycData.Restaurante.Domain.Core\obj\Debug\SycData.Restaurante.Domain.Core.csprojResolveAssemblyReference.cache
+D:\Desarrollo\WebApi\SycData.Restaurante.Domain.Core\obj\Debug\SycData.Restaurante.Domain.Core.dll
+D:\Desarrollo\WebApi\SycData.Restaurante.Domain.Core\obj\Debug\SycData.Restaurante.Domain.Core.pdb
