@@ -12,5 +12,8 @@ namespace SycData.Restaurante.Domain.ViewModels
         public int IdOperacion { get; set; }
 
         public DateTime Fecha { get; set; }
+
+        public int IdTurno { get; set; }
+
     }
 }

@@ -19,3 +19,13 @@ C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain.Core\bin\Debug\
 C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain.Core\obj\Debug\SycData.Restaurante.Domain.Core.csprojResolveAssemblyReference.cache
 C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain.Core\obj\Debug\SycData.Restaurante.Domain.Core.dll
 C:\Users\user\Source\Repos\WebApiRest\SycData.Restaurante.Domain.Core\obj\Debug\SycData.Restaurante.Domain.Core.pdb
+C:\Users\kevin\Source\Repos\WebApiRestaurante\SycData.Restaurante.Domain.Core\bin\Debug\SycData.Restaurante.Domain.Core.dll
+C:\Users\kevin\Source\Repos\WebApiRestaurante\SycData.Restaurante.Domain.Core\bin\Debug\SycData.Restaurante.Domain.Core.pdb
+C:\Users\kevin\Source\Repos\WebApiRestaurante\SycData.Restaurante.Domain.Core\bin\Debug\SycData.Restaurante.Domain.dll
+C:\Users\kevin\Source\Repos\WebApiRestaurante\SycData.Restaurante.Domain.Core\bin\Debug\SycData.Restaurante.Domain.pdb
+C:\Users\kevin\Source\Repos\WebApiRestaurante\SycData.Restaurante.Domain.Core\bin\Debug\SycData.Restaurante.Domain.dll.config
+C:\Users\kevin\Source\Repos\WebApiRestaurante\SycData.Restaurante.Domain.Core\obj\Debug\SycData.Restaurante.Domain.Core.csprojAssemblyReference.cache
+C:\Users\kevin\Source\Repos\WebApiRestaurante\SycData.Restaurante.Domain.Core\obj\Debug\SycData.Restaurante.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Source\Repos\WebApiRestaurante\SycData.Restaurante.Domain.Core\obj\Debug\SycData.Restaurante.Domain.Core.csproj.CopyComplete
+C:\Users\kevin\Source\Repos\WebApiRestaurante\SycData.Restaurante.Domain.Core\obj\Debug\SycData.Restaurante.Domain.Core.dll
+C:\Users\kevin\Source\Repos\WebApiRestaurante\SycData.Restaurante.Domain.Core\obj\Debug\SycData.Restaurante.Domain.Core.pdb

@@ -28,7 +28,7 @@ namespace SycData.Restaurante.Infra.Persistence.Repository
 
 
 
-            var Result = await _Context.Operacion.Where(x => x.Estado == false).Take(1).OrderByDescending(x => x.IdOperacion).Select(x => new OperacionViewModel { IdOperacion = x.IdOperacion, Fecha = x.FechaApertura }).FirstOrDefaultAsync();
+            var Result = await _Context.Operacion.Where(x => x.Estado == false).Take(1).OrderByDescending(x => x.IdOperacion).Select(x => new OperacionViewModel { IdOperacion = x.IdOperacion, Fecha = x.FechaApertura ,IdTurno = x.IdTurno }).FirstOrDefaultAsync();
 
 
 
