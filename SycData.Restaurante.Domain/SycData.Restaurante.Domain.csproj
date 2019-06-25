@@ -97,6 +97,7 @@
     <Compile Include="Interfaces\IComandaDetalle.cs" />
     <Compile Include="Interfaces\IMesa.cs" />
     <Compile Include="Interfaces\INivel.cs" />
+    <Compile Include="Interfaces\IOperacion.cs" />
     <Compile Include="Interfaces\IProducto.cs" />
     <Compile Include="Interfaces\IRegistroPedido.cs" />
     <Compile Include="Interfaces\IUsuario.cs" />
