@@ -104,6 +104,7 @@
     <Compile Include="ViewModels\DetalleComandaViewModel.cs" />
     <Compile Include="ViewModels\MesaViewModel.cs" />
     <Compile Include="ViewModels\RegistroViewModel.cs" />
+    <Compile Include="ViewModels\TotalesViewModel.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
