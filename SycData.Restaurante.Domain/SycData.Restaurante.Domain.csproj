@@ -97,16 +97,13 @@
     <Compile Include="Interfaces\IComandaDetalle.cs" />
     <Compile Include="Interfaces\IMesa.cs" />
     <Compile Include="Interfaces\INivel.cs" />
-    <Compile Include="Interfaces\IOperacion.cs" />
     <Compile Include="Interfaces\IProducto.cs" />
     <Compile Include="Interfaces\IRegistroPedido.cs" />
     <Compile Include="Interfaces\IUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\DetalleComandaViewModel.cs" />
     <Compile Include="ViewModels\MesaViewModel.cs" />
-    <Compile Include="ViewModels\OperacionViewModel.cs" />
     <Compile Include="ViewModels\RegistroViewModel.cs" />
-    <Compile Include="ViewModels\TotalesViewModel.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
